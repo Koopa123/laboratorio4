@@ -1,45 +1,40 @@
-const Header = () => {
-    return <header class="col-md-12">
-        <h1 className ="text-center"> KOOPACAPS</h1>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-                    <div class="container-fluid">
-                        <a class="navbar-brand" href="#">Gorras</a>
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
-                            aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-                        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                            <ul class="navbar-nav">
+import Button from 'react-bootstrap/Button';
+import Container from 'react-bootstrap/Container';
+import Form from 'react-bootstrap/Form';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
+import NavDropdown from 'react-bootstrap/NavDropdown';
+import Message from './message'
 
-                                <li class="nav-item">
-                                    <a class="nav-link " aria-current="page" href="#">MLB</a>
-                                </li>
-                                
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">NFL</a>
-                                </li>
 
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">NBA</a>
-                                </li>
-                                
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                                        aria-expanded="false">
-                                        Siluetas
-                                    </a>
-                                    <ul class="dropdown-menu">
-                                        <li><a class="dropdown-item" href="#">9forty</a></li>
-                                        <li><a class="dropdown-item" href="#">59fifty</a></li>
-                                        <li><a class="dropdown-item" href="#">39thirty</a></li>
-                                    </ul>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </nav>
-    </header>;
+function Header() {
+  return (
+    <Navbar expand="lg" className="bg-body-tertiary">
+        
+      <Container fluid>
+        <Navbar.Brand href="#"><i data-feather = "home"></i>Home</Navbar.Brand>
+        <Navbar.Toggle aria-controls="navbarScroll" />
+        <Navbar.Collapse id="navbarScroll">
+
+          <Nav
+            className="me-auto my-2 my-lg-0"
+            style={{ maxHeight: '100px' }}
+            navbarScroll
+          >
+            <Nav.Link href="#action1">NBA</Nav.Link> 
+            <Nav.Link href="#action2">NFL</Nav.Link>
+
+            <NavDropdown title="Siluetas" id="navbarScrollingDropdown">
+              <NavDropdown.Item href="#action3">9forty</NavDropdown.Item>
+              <NavDropdown.Item href="#action4">59fifty</NavDropdown.Item>
+            </NavDropdown>
+
+          </Nav>
+          
+        </Navbar.Collapse>
+      </Container>
+    </Navbar>
+  );
 }
 
 export default Header;

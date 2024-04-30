@@ -5,11 +5,18 @@ import Header from "./header";
 import Main from "./main";
 import Aside from "./aside";
 import Footer from "./footer";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import "./styles.css"
+const feather = require('feather-icons');
 
+setTimeout( () => {
+    feather.replace(); 
+},500);
 
 const root = createRoot(document.getElementById("root"));
 root.render(
     <StrictMode>
+        <Message message = 'KOOPACAPS'></Message>
         <Header></Header>
         <div className="container">
             <div className="row">
