@@ -4,8 +4,8 @@ import Form from 'react-bootstrap/Form';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
-import Message from './message'
-
+import Message from '../message'
+import { Link } from "react-router-dom";
 
 function Header() {
   return (

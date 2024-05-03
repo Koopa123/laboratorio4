@@ -1,0 +1,20 @@
+[
+    {
+        "name": "Rey Koopa",
+        "slug": "koopa-1",
+        "description": "Descripcion Koopa",
+        "picture": "https://i.pinimg.com/originals/76/96/1b/76961b59dc9f597996a7f18188e0aab3.jpg"
+    },
+    {
+        "name": "gorra 2",
+        "slug": "gorra-2",
+        "description": "Descripcion gorra 2",
+        "picture": "https://columbiape.vtexassets.com/arquivos/ids/247077/https---s3.amazonaws.com-ecom-imagenes.forus-digital.xyz.peru-COLUMBIA-1503971_HHC_1.jpg?v=637980351929470000"
+    },
+    {
+        "name": "gorra 3",
+        "slug": "gorra-3",
+        "description": "Descripcion gorra 3",
+        "picture": "https://m.media-amazon.com/images/I/71aBAJMwDTS._AC_SL1500_.jpg"
+    }
+]
