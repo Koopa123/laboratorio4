@@ -7,3 +7,35 @@
 h1{
     text-align: center;
 }
+
+.primary{
+    background-color: #025891;
+}
+
+.secondary{
+    background-color: #0197F6;
+}
+
+.gris{
+    background-color: rgb(190, 173, 173);
+}
+
+.terciary{
+    background-color: #02182B;
+    color: white!important;
+}
+
+.caja{
+    width: fit-content !important;
+    height: fit-content !important;
+    object-fit: contain !important;
+}
+
+.negrita{
+    font-weight: bold;
+}
+
+.koopaEnano{
+    max-width: 50px;
+    max-width: 50px;
+}

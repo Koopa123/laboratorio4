@@ -1,5 +1,5 @@
 const Aside = () => {
-    return <aside>
+    return <aside className="border p-4 rounded">
         <form>
 
             <div class="mb-4">
@@ -27,13 +27,17 @@ const Aside = () => {
                         <input type="checkbox" class="form-check-input" id="exampleCheck1"></input>
                             <label class="form-check-label" for="exampleCheck1">Verificado</label>
             </div>
-            <button type="submit" class="btn btn-primary">
-                <i data-feather = "send"></i>  Enviar</button>
+            <button type="submit" className="btn secondary">
+               <i data-feather = "send"></i> Enviar</button>
+        <br></br>
+        <br></br>
+        <a className="text-decoration-none text-dark" href="#">¿No tienes cuenta? Regístrate</a>
+        <br></br>
+        <br></br>
+        <a className="text-decoration-none text-dark" href="#">¿Olvidaste tu contraseña?  <i data-feather ="frown"></i></a>
         </form>
 
-        <a class="dropdown-item" href="#">¿No tienes cuenta? Regístrate</a>
         
-        <a class="dropdown-item" href="#">¿Olvidaste tu contraseña?  <i data-feather = "frown"></i></a>
     </aside>;
 }
 

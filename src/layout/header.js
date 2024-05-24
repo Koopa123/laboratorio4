@@ -8,11 +8,12 @@ import Message from '../message'
 import { Link } from "react-router-dom";
 
 function Header() {
-  return (
-    <Navbar expand="lg" className="bg-body-tertiary">
-        
+  return ( 
+    <Navbar expand="lg" className="secondary">
+      
       <Container fluid>
-        <Navbar.Brand href="#"><i data-feather = "home"></i>Home</Navbar.Brand>
+        <img src='https://i.imgur.com/Zc0Z0lP.png' className='koopaEnano'></img>
+        <Navbar.Brand href="#"><i data-feather = "home" className='negrita'></i>Home</Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
 
@@ -21,12 +22,12 @@ function Header() {
             style={{ maxHeight: '100px' }}
             navbarScroll
           >
-            <Nav.Link href="#action1">NBA</Nav.Link> 
-            <Nav.Link href="#action2">NFL</Nav.Link>
+            <Nav.Link href="#action1" className='negrita'>NBA</Nav.Link> 
+            <Nav.Link href="#action2" className='negrita'>NFL</Nav.Link>
 
-            <NavDropdown title="Siluetas" id="navbarScrollingDropdown">
-              <NavDropdown.Item href="#action3">9forty</NavDropdown.Item>
-              <NavDropdown.Item href="#action4">59fifty</NavDropdown.Item>
+            <NavDropdown className='negrita' title="Siluetas" id="navbarScrollingDropdown">
+              <NavDropdown.Item className='negrita' href="#action3">9forty</NavDropdown.Item>
+              <NavDropdown.Item className='negrita' href="#action4">59fifty</NavDropdown.Item>
             </NavDropdown>
 
           </Nav>

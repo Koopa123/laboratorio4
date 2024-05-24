@@ -8,6 +8,7 @@ const Basic = () => {
         <>
             <StrictMode>
                 <Header />
+                <h1 className="terciary">KOOPACAPS</h1>
                 <div className="container">
                     <div className="row py-5">
                         <Outlet></Outlet>
