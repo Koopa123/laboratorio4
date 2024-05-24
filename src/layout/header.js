@@ -6,19 +6,27 @@ import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import Message from '../message'
 import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
+
+
+  
 
 function Header() {
+  const navigate = useNavigate();
+
+  const handleClick = (slug) => {
+      navigate(slug);}
   return ( 
     <Navbar expand="lg" className="secondary">
       
       <Container fluid>
-        <img src='https://i.imgur.com/Zc0Z0lP.png' className='koopaEnano'></img>
-        <Navbar.Brand href="#"><i data-feather = "home" className='negrita'></i>Home</Navbar.Brand>
+        <img src='https://i.imgur.com/Zc0Z0lP.png' className='koopaEnano' onClick={() => {handleClick("/");}}></img>
+        <Navbar.Brand href="#"><i data-feather = "home" className='negrita ms-4 me-auto my-lg-0'></i>Home</Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
 
           <Nav
-            className="me-auto my-2 my-lg-0"
+            className="me-auto my-lg-0"
             style={{ maxHeight: '100px' }}
             navbarScroll
           >

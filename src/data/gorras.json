@@ -1,21 +1,21 @@
 [
     {
-        "name": "Rey Koopa",
-        "slug": "koopa-1",
-        "description": "Descripcion Koopa",
-        "picture": "https://i.pinimg.com/originals/76/96/1b/76961b59dc9f597996a7f18188e0aab3.jpg"
-        
+        "name": "Gorra 1",
+        "slug": "fishing1",
+        "description": "Gorra fishing beige/white",
+        "picture": "https://ripleype.imgix.net/https%3A%2F%2Fmedia-prod-use-1.mirakl.net%2FSOURCE%2F644d264a42254e01bb1717b546ce9224?w=750&h=555&ch=Width&auto=format&cs=strip&bg=FFFFFF&q=60&trimcolor=FFFFFF&trim=color&fit=fillmax&ixlib=js-1.1.0&s=e9f535d93ee4137375b87547ebb01d3c"
+
     },
     {
-        "name": "gorra 2",
-        "slug": "gorra-2",
-        "description": "Descripcion gorra 2",
+        "name": "Gorra 2",
+        "slug": "fishing2",
+        "description": "Gorra mountain black",
         "picture": "https://ripleype.imgix.net/https%3A%2F%2Fdpq25p1ucac70.cloudfront.net%2Fseller-place-files%2Fmrkl-files%2F140%2FMARKETPLACE%20INTERNACIONAL%2F61A8uD8QekS_194556568555_53.jpeg?w=750&h=555&ch=Width&auto=format&cs=strip&bg=FFFFFF&q=60&trimcolor=FFFFFF&trim=color&fit=fillmax&ixlib=js-1.1.0&s=66073b3ea5977b36e02defdad325ec65"
     },
     {
-        "name": "gorra 3",
-        "slug": "gorra-3",
-        "description": "Descripcion gorra 3",
+        "name": "Gorra 3",
+        "slug": "fishing3",
+        "description": "Gorra fishing black",
         "picture": "https://ripleype.imgix.net/https%3A%2F%2Fdpq25p1ucac70.cloudfront.net%2Fseller-place-files%2Fmrkl-files%2F2516%2FMARKETPLACE%20INTERNACIONAL%2FB07DKZGJYD-02.jpg?w=750&h=555&ch=Width&auto=format&cs=strip&bg=FFFFFF&q=60&trimcolor=FFFFFF&trim=color&fit=fillmax&ixlib=js-1.1.0&s=1b444941aaa489f560ec2e4ef2c3362a"
     }
 ]
